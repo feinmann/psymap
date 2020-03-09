@@ -19,3 +19,5 @@ Imports:
 RoxygenNote: 7.0.2
 Suggests: 
     testthat
+URL: https://github.com/feinmann/psymap
+BugReports: https://github.com/feinmann/psymap/issues

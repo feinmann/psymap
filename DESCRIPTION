@@ -1,6 +1,6 @@
 Package: psymap
 Title: Visualizing Festival locations
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: person('fein', 'mann', email = 'bidmaster@gmx.de', role = c('cre', 'aut'))
 Description: See overview about certain festival locations.
 License: MIT + file LICENSE
@@ -13,7 +13,9 @@ Imports:
     attempt,
     DT,
     glue,
-    htmltools
+    htmltools,
+    pkgload,
+    leaflet
 RoxygenNote: 7.0.2
 Suggests: 
     testthat

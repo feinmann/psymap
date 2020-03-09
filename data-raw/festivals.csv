@@ -1,22 +1,24 @@
-start, end, name, style, place, country, web
-"10.01.20","12.01.20","World Club Dome Winter Edition","Stil: House, Techno, Hardstyl ...","Düsseldorf","de","http://www.test.de"
-"18.01.20",NA,"Solution Germany","Stil: Hardstyle, Hands Up, Ho ...","Oberhausen","de",NA
-"05.06.20","07.06.20","We Are Not Alone","Stil: Psytrance, Goa ...","Quasslin","de","https://www.festivalticker.de/festivals/we_are_not_alone/"
-"06.06.20",NA,"Festival of Color Experience","Stil: Electro, EDM, House","Ramstein","de","https://www.festivalticker.de/festivals/festival_of_colors_ramstein/"
-"11.06.20","14.06.20","Zurück zu den Wurzeln Festival","Stil: Techno, Tech House, Dee ...","Niedergörsdorf","de","https://www.festivalticker.de/festivals/zurueck_zu_den_wurzeln_festival/"
-"13.06.20",NA,"Isle of Summer","Stil: Electronic","München","de","https://www.festivalticker.de/festivals/isle_of_summer/"
-"13.06.20",NA,"Waves Open Air","Stil: Techno, Electronic ...","Wedemark","de","https://www.festivalticker.de/festivals/waves_open_air/"
-"19.06.20","20.06.20","Fortland Festival","Stil: Progressive House, Tech ...","Ilshofen","de","https://www.festivalticker.de/festivals/fortland_festival/"
-"25.06.20","28.06.20","Burning Mountain Festival","Stil: Progressive Trance, Psy ...","Zernez","ch","https://www.festivalticker.de/festivals/burning_mountain_festival/"
-"26.06.20","28.06.20","Electrifinity Festival","Stil: Electronic, Electro Hou ...","Bad Aibling","de","https://www.festivalticker.de/festivals/electrifinity_festival/"
-"27.06.20","28.06.20","Awakenings Festival","Stil: Electronic","NB Spaarnwoude","nl","https://www.festivalticker.de/festivals/awakenings_festival/"
-"27.06.20",NA,"Grüne Sonne Festival","Stil: Electronic, Electro Pop ...","Hohenpeißenberg","de","https://www.festivalticker.de/festivals/gruene_sonne_festival/"
-"27.06.20",NA,"Tropical Beach Festival","Stil: House, Tropical House, ...","Landau in der Pfalz","de","https://www.festivalticker.de/festivals/tropical_beach_festival/"
-"09.05.20",NA,"Titanium Festival","Stil: Hardcore Techno ...","Vianen","nl","https://www.festivalticker.de/festivals/titanium_festival/"
-"14.05.20","18.05.20","Psychedelic Circus Festival","Stil: Psytrance, Progressive ...","Göhlen","de","https://www.festivalticker.de/festivals/psychedelic_circus/"
-"15.05.20","17.05.20","Fabville - Electronic Beatz Festival","Stil: House, Deep House, Prog ...","Speichersdorf","de","https://www.festivalticker.de/festivals/fabville_electronic_beatz_festival/"
-"16.05.20",NA,"Heaven and Hill Festival","Stil: Electronic","Neukirchen-Vluyn","de","https://www.festivalticker.de/festivals/heaven_and_hill_festival/"
-"21.05.20",NA,"Und draußen tanzt der Bär","Stil: Electronic","Schwerin","de","https://www.festivalticker.de/festivals/und_draussen_tanzt_der_baer/"
-"28.05.20","31.05.20","Psychedelic Experience","Stil: Psytrance, Progressive ...","Lübz","de","https://www.festivalticker.de/festivals/psychedelic_experience/"
-"29.05.20","31.05.20","Ikarus Festival","Stil: Electronic","Memmingen","de","https://www.festivalticker.de/festivals/ikarus_festival/"
-"30.05.20","01.06.20","Luft und Liebe Vol. I","Stil: Electronic","Duisburg","de","https://www.festivalticker.de/festivals/luft_und_liebe/"
+start, end, name, style, place, country, web,info
+"10.01.20","12.01.20","World Club Dome Winter Edition","Stil: House, Techno, Hardstyl ...","Düsseldorf","de","http://www.test.de",NA
+"18.01.20",NA,"Solution Germany","Stil: Hardstyle, Hands Up, Ho ...","Oberhausen","de",NA,NA
+"05.06.20","07.06.20","We Are Not Alone","Stil: Psytrance, Goa ...","Quasslin","de","https://www.festivalticker.de/festivals/we_are_not_alone/",NA
+"06.06.20",NA,"Festival of Color Experience","Stil: Electro, EDM, House","Ramstein","de","https://www.festivalticker.de/festivals/festival_of_colors_ramstein/",NA
+"11.06.20","14.06.20","Zurück zu den Wurzeln Festival","Stil: Techno, Tech House, Dee ...","Niedergörsdorf","de","https://www.festivalticker.de/festivals/zurueck_zu_den_wurzeln_festival/",NA
+"13.06.20",NA,"Isle of Summer","Stil: Electronic","München","de","https://www.festivalticker.de/festivals/isle_of_summer/",NA
+"13.06.20",NA,"Waves Open Air","Stil: Techno, Electronic ...","Wedemark","de","https://www.festivalticker.de/festivals/waves_open_air/",NA
+"19.06.20","20.06.20","Fortland Festival","Stil: Progressive House, Tech ...","Ilshofen","de","https://www.festivalticker.de/festivals/fortland_festival/",NA
+"25.06.20","28.06.20","Burning Mountain Festival","Stil: Progressive Trance, Psy ...","Zernez","ch","https://www.festivalticker.de/festivals/burning_mountain_festival/",NA
+"26.06.20","28.06.20","Electrifinity Festival","Stil: Electronic, Electro Hou ...","Bad Aibling","de","https://www.festivalticker.de/festivals/electrifinity_festival/",NA
+"27.06.20","28.06.20","Awakenings Festival","Stil: Electronic","NB Spaarnwoude","nl","https://www.festivalticker.de/festivals/awakenings_festival/",NA
+"27.06.20",NA,"Grüne Sonne Festival","Stil: Electronic, Electro Pop ...","Hohenpeißenberg","de","https://www.festivalticker.de/festivals/gruene_sonne_festival/",NA
+"27.06.20",NA,"Tropical Beach Festival","Stil: House, Tropical House, ...","Landau in der Pfalz","de","https://www.festivalticker.de/festivals/tropical_beach_festival/",NA
+"09.05.20",NA,"Titanium Festival","Stil: Hardcore Techno ...","Vianen","nl","https://www.festivalticker.de/festivals/titanium_festival/",NA
+"14.05.20","18.05.20","Psychedelic Circus Festival","Stil: Psytrance, Progressive ...","Göhlen","de","https://www.festivalticker.de/festivals/psychedelic_circus/",NA
+"15.05.20","17.05.20","Fabville - Electronic Beatz Festival","Stil: House, Deep House, Prog ...","Speichersdorf","de","https://www.festivalticker.de/festivals/fabville_electronic_beatz_festival/",NA
+"16.05.20",NA,"Heaven and Hill Festival","Stil: Electronic","Neukirchen-Vluyn","de","https://www.festivalticker.de/festivals/heaven_and_hill_festival/",NA
+"21.05.20",NA,"Und draußen tanzt der Bär","Stil: Electronic","Schwerin","de","https://www.festivalticker.de/festivals/und_draussen_tanzt_der_baer/",NA
+"28.05.20","31.05.20","Psychedelic Experience","Stil: Psytrance, Progressive ...","Lübz","de","https://www.festivalticker.de/festivals/psychedelic_experience/",NA
+"29.05.20","31.05.20","Ikarus Festival","Stil: Electronic","Memmingen","de","https://www.festivalticker.de/festivals/ikarus_festival/",NA
+"30.05.20","01.06.20","Luft und Liebe Vol. I","Stil: Electronic","Duisburg","de","https://www.festivalticker.de/festivals/luft_und_liebe/",NA
+"20.07.20","26.07.20","O.z.o.r.a. Festival","Stil: Psytrance, Goa, Ambient ...","Ozora","hu","https://ozorafestival.eu/","Boris wartet hier schon auf Euch"
+"02.04.20","03.04.20","Electric Mountain Festival","Stil: House, EDM, Deep House ...","Sölden","at","https://www.soelden.com/electric-mountain-festival","Boris wartet hier schon auf Euch"

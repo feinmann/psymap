@@ -1,24 +1,12 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+psymap
+======
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
+The goal of psymap is to filter for festivals and show them. Also to vote with your friends for the best festival.
 
-# psymap
-
-The goal of psymap is to filter for festivals and show them. Also to vote with your
-friends for the best festival.
-
-## Installation
+Installation
+------------
 
 You can install the released version of psymap from [CRAN](https://CRAN.R-project.org) with:
 
@@ -26,13 +14,12 @@ You can install the released version of psymap from [CRAN](https://CRAN.R-projec
 devtools::install_github("https://github.com/feinmann/psymap")
 ```
 
-## Example
+Example
+-------
 
 This is a basic example which shows you how to solve a common problem:
 
-```r
+``` r
 library(psymap)
 run_app()
 ```
-
-

@@ -1,0 +1,12 @@
+Package: psymap
+Title: Visualizing Festival locations
+Version: 0.0.0.9000
+Authors@R: person('fein', 'mann', email = 'bidmaster@gmx.de', role = c('cre', 'aut'))
+Description: See overview about certain festival locations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny, 
+    golem
+RoxygenNote: 6.1.0

@@ -6,10 +6,21 @@ app_ui <- function() {
     golem_add_external_resources(),
     # List the first level UI elements here 
     bootstrapPage(
-      tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
+      tags$head(
+        tags$style(type = "text/css", "html, body {width:100%;height:100%}")
+      ),
       leafletOutput("mymap", width = "100%", height = "100%"),
       absolutePanel(
-        bottom = 30, left = 10, h1("psymap", style="background-color:red")
+        bottom = 30, left = 10, 
+        h1("psymap", style="background-color:red"),
+        div(h1(textOutput("click_text"), style="background-color:red"))
+      ),
+      absolutePanel(
+        bottom = 30, right = 10, 
+        conditionalPanel("typeof(input.mymap_marker_click) === 'object'", 
+                         actionButton("update", "Vote!!"),
+                         div(textInput("text1", "Name"), style="font-color:red"),
+                         tableOutput("table1"))
       )
     )
   )

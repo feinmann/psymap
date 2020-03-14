@@ -38,7 +38,7 @@ usethis::use_git()
 ## 
 ## If you have data in your package
 usethis::use_data_raw( name = "join_festivals", open = FALSE ) # Change "my_dataset"
-usethis::use_data(world.cities)
+usethis::use_data(dt)
 
 ## 1.4 - Init Tests
 ## 

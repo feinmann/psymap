@@ -15,8 +15,10 @@ Imports:
     glue,
     htmltools,
     pkgload,
-    leaflet
-RoxygenNote: 7.0.2
+    leaflet,
+    rdrop2,
+    data.table
+RoxygenNote: 7.1.0
 Suggests: 
     testthat
 URL: https://github.com/feinmann/psymap

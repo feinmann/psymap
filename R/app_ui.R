@@ -16,8 +16,8 @@ app_ui <- function() {
       leafletOutput("mymap", width = "100%", height = "100%"),
       absolutePanel(
         bottom = 30, left = 10, 
-        h1("psymap", style="background-color:red"),
-        div(h1(textOutput("click_text"), style="background-color:red"))
+        h1(a(href="https://github.com/feinmann/psymap", "psymap", target="_blank", style="color:black;background-color:red")),
+        div(h1(textOutput("click_text"), style="color:black;background-color:red"))
       ),
       conditionalPanel("input.myEvent == 'open'", 
                        helpText("Please enter your name and",
@@ -25,9 +25,11 @@ app_ui <- function() {
       absolutePanel(id = "absolute_panel",
         top = 50, right = 10, 
         conditionalPanel("input.myEvent == 'open' && input.vote_button === 0", 
-                         helpText("Please enter your name and vote for the festival of your life!"),
-                         actionButton("vote_button", "Vote!!"),
-                         div(textInput("text1", "Name"), style="font-color:red")),
+                         helpText("Please enter your name and vote for the festival of your life!", style="color:black"),
+                         splitLayout(cellWidths = c("15%", "85%"),
+                           actionButton("vote_button", "Vote!!"),
+                           div(textInput("text1", NULL, width = "98%", placeholder = "name"), style="font-color:red"))
+                         ),
         conditionalPanel("input.vote_button > 0",
                          tableOutput("table1"))
       )

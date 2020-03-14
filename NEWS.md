@@ -1,3 +1,8 @@
+# psymap 0.2.0
+
+* Add possibility to vote (just before the local elections in Munich, Germany)
+* Data is transferred and stored in dropbox account
+
 # psymap 0.1.0
 
 * Inital release

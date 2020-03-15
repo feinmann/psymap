@@ -1,3 +1,7 @@
+# psymap 0.3.0
+
+* Add possibility to filter for free-text in all festivals
+
 # psymap 0.2.0
 
 * Add possibility to vote (just before the local elections in Munich, Germany)

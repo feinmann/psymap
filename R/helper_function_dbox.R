@@ -7,7 +7,7 @@ saveData <- function(data, outputDir = "psymap") {
   filePath <- file.path(tempdir(), "psymap_votes.csv")
   write.csv(data, filePath, row.names = FALSE, quote = TRUE)
   # Upload the file to Dropbox
-  drop_upload(filePath, path = outputDir, mode = "add")
+  drop_upload(filePath, path = outputDir, mode = "overwrite")
 }
 
 loadData <- function(outputDir = "psymap") {

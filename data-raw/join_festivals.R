@@ -11,7 +11,7 @@ world.cities <- rbindlist(list(world.cities,
   data.table(name = "Solden", country.etc = "Germany", pop = 3145, lat = 46.966667, long = 11, capital = 0),
   data.table(name = "Ozora", country.etc = "Germany", pop = 1666, lat = 46.7529, long = 18.3985, capital = 0)))
 
-festivals <- fread("data-raw/festivals.csv")
+festivals <- fread("data-raw/festivals.csv", fill = TRUE)
 
 festivals[, place := gsub("ü", "u", place, fixed = TRUE)]
 festivals[, place := gsub("ö", "o", place, fixed = TRUE)]

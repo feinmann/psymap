@@ -8,7 +8,7 @@ app_server <- function(input, output, session) {
   onStop(function() {
     if (isolate(input$vote_button > 0)) {
       save_data <- isolate(data())
-      saveData(save_data)
+      saveData(unique(save_data))
     }
   })
   

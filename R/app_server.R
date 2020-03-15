@@ -1,4 +1,5 @@
 #' @import shiny
+#' @import dplyr
 #' @import rdrop2
 app_server <- function(input, output, session) {
   
@@ -12,14 +13,22 @@ app_server <- function(input, output, session) {
     }
   })
   
+  join_festivals_react <- reactive({
+    
+    join_festivals %>% filter_all(any_vars(grepl(input$text_filter, ., ignore.case = TRUE)))
+    
+  })
+  
   # List the first level callModules here
   output$mymap <- renderLeaflet({
-    leaflet(data = join_festivals) %>% addTiles() %>%
+    leaflet(data = join_festivals_react()) %>% addTiles() %>%
       addCircleMarkers(~long, ~lat, 
                  popup = ~as.character(paste(sep = "<br/>", name, place, web, start, end, style, info)),
                  color = "red",
                  layerId = ~name,
-                 clusterOptions = markerClusterOptions()) %>% 
+                 clusterOptions = markerClusterOptions(zoomToBoundsOnClick = TRUE,
+                                                       maxClusterRadius = 50
+                                                       )) %>% 
       addProviderTiles(providers$Stamen.Toner) %>% 
       addMeasure(
         position = "topright",

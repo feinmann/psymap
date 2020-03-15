@@ -2,6 +2,7 @@
 
 * Add 16 more festivals. Only 9 to map, because of missing coords
 * Add clusters because of several festivals in same place
+* Add possibility to filter for free-text in all festivals
 
 # psymap 0.2.0
 

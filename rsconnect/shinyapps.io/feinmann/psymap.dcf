@@ -5,6 +5,6 @@ account: feinmann
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1925740
-bundleId: 2883324
+bundleId: 2883704
 url: https://feinmann.shinyapps.io/psymap/
-when: 1584276994.33491
+when: 1584290939.33558

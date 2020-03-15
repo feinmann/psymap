@@ -18,7 +18,8 @@ app_server <- function(input, output, session) {
       addCircleMarkers(~long, ~lat, 
                  popup = ~as.character(paste(sep = "<br/>", name, place, web, start, end, style, info)),
                  color = "red",
-                 layerId = ~name) %>% 
+                 layerId = ~name,
+                 clusterOptions = markerClusterOptions()) %>% 
       addProviderTiles(providers$Stamen.Toner) %>% 
       addMeasure(
         position = "topright",
